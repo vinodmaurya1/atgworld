@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/atgworld/static/css/main.cf2c1555.css",
+    "main.js": "/atgworld/static/js/main.2a930890.js",
+    "static/js/787.c6f5fd5d.chunk.js": "/atgworld/static/js/787.c6f5fd5d.chunk.js",
+    "static/media/backgroundImage.jpg": "/atgworld/static/media/backgroundImage.d90613bde19967c08ede.jpg",
+    "static/media/cardImg.jpg": "/atgworld/static/media/cardImg.bbf5e66cfd754139c367.jpg",
+    "static/media/dollPic.png": "/atgworld/static/media/dollPic.e43c20c0bb459e5530b8.png",
+    "index.html": "/atgworld/index.html",
+    "main.cf2c1555.css.map": "/atgworld/static/css/main.cf2c1555.css.map",
+    "main.2a930890.js.map": "/atgworld/static/js/main.2a930890.js.map",
+    "787.c6f5fd5d.chunk.js.map": "/atgworld/static/js/787.c6f5fd5d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf2c1555.css",
+    "static/js/main.2a930890.js"
+  ]
+}
