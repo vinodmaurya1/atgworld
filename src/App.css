@@ -1,38 +1,505 @@
-.App {
+/* Navbar */
+
+
+.logoImg{
+  position: absolute;
+  left: 50px;
+}
+
+.form-control{
+  position: absolute;
+width: 360px;
+height: 42px;
+left: 540px;
+top: 7px;
+border-radius: 25px;
+}
+
+.creatAcBox{
+  position: absolute;
+width: 115px;
+height: 24px;
+left: 1130px;
+top: 12px;
+}
+
+.signupModalLink{
+  position: absolute;
+  left: 1248px;
+    top: 12px;
+  }
+  .signupModalLink a{
+    text-decoration: none!important;
+    
+}
+
+
+/* Header */
+
+
+.backgroundImage{
+  position: absolute;
+width: 99vw;
+padding: 0;
+margin: 0;
+height: 440px;
+left: 0px;
+top: 55px;
+background: url(./images/backgroundImage.jpg);
+filter: brightness(0.5);
+background-color: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.6) 100%);
+}
+
+
+.textOnBgImage1{
+  /* Computer Engineering */
+
+
+position: absolute;
+width: 378px;
+height: 47px;
+left: 200px;
+top: 350px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 47px;
+/* identical to box height */
+
+color:  #FFFFFF;
+}
+
+
+.textOnBgImage2{
+  position: absolute;
+width: 327px;
+height: 23px;
+left: 200px;
+top: 400px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+color: #FFFFFF;
+}
+
+
+
+
+/* section */
+
+
+.sectionHead{
+  position: absolute;
+width: 370px;
+height: 21px;
+left: 200px;
+top: 549px;
+display: flex;
+
+}
+
+.sectionHead div{
+  padding: 0px;
+  margin: 10px;
+}
+
+.card{
+  position: absolute;
+width: 692px;
+height: 472px;
+left: 211px;
+top: 626px;
+}
+
+.card img{
+  position: absolute;
+  width: 692px;
+  height: 220px;
+  /* left: 208px; */
+  /* top: 628px; */
+  border-radius: 4px 4px 0px 0px;
+  
+}
+
+.card-body{
+  position: absolute;
+width: 600px;
+height: 60px;
+/* left: 220px; */
+top: 225px;
+}
+
+.cardCat{
+  position: absolute;
+  width: 77px;
+  height: 25px;
+  left: 27px;
+
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.cardTitle{
+  position: absolute;
+width: 600px;
+height: 60px;
+top: 56px;
+left: 27px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 134.17%;
+}
+
+.cardDesc{
+  position: absolute;
+width: 652px;
+height: 25px;
+top: 100px;
+left: 36px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 134.17%;
+color: #5C5C5C;
+}
+
+.userProfile img{
+  position: absolute;
+width: 48px;
+height: 48px;
+left: 22px;
+top: 400px;
+border-radius: 24px;
+}
+
+.userName{
+  position: absolute;
+width: 125px;
+height: 24px;
+left: 93px;
+top: 415px;
+
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+}
+
+.watchNumber img{
+  position: absolute;
+  height: 15px;
+  width: 20px;
+left: 68%;
+right: 4.17%;
+top: 90%;
+}
+
+.watchNumber span{
+  position: absolute;
+width: 69px;
+height: 18px;
+left: 494px;
+top: 422px;
+
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+text-align: right;
+
+color: #525252;
+}
+
+.shareBtn{
+  position: absolute;
+  height: 32px;
+  width: 42px;
+  left: 88%;
+  top: 88%;
+
+background: #c4c5c7;
+border-radius: 2px;
+}
+
+.shareBtn img{
+  position: absolute;
+  height: 20px;
+  width: 22px;
+  left: 16.5%;
+  right: 12.5%;
+  top: 13.33%;
+  bottom: 8.67%;
+}
+
+.location{
+  position: absolute;
+width: 150px;
+height: 18px;
+left: 1019px;
+top: 656px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+}
+.locationBtn span{
+  margin: 10px;
+}
+
+.locationEditBtn{
+  position: absolute;
+  height: 36px;
+  width: 35px;
+  left: 214px;
+  right: 12.49%;
+  top: 12.49%;
+  bottom: 12.5%;
+}
+
+.underline{
+  border: 0.1px solid #B8B8B8;
+}
+
+.locationInfo img{
+  position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 88px;
+bottom: 8.33%;
+}
+
+.locationInfo span {
+  margin: 22px; 
+  width: 30px;
+}
+
+.locationInfoText{
+  position: absolute;
+  width: 220px;
+  height: 32px;
+  left: 40px;
+  top: 80px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+
+color: #000000;
+
+opacity: 0.6;
+}
+
+
+/* Aside  */
+
+
+.dropdown{
+  position: absolute;
+width: 133px;
+height: 36px;
+left: 966px;
+top: 552px;
+}
+
+.joinGroup{
+  position: absolute;
+width: 125px;
+height: 36px;
+left: 1112px;
+top: 552px;
+}
+
+.joinGroup img{
+  position: absolute;
+left: 2%;
+right: 0%;
+top: 31.83%;
+bottom: 25%;
+
+}
+
+
+
+/* signupModal */
+
+.modal-header{
+  background-color: rgb(209, 243, 201);
+}
+
+
+.modal-title{
+  
+
+font-style: normal;
+font-weight: 400;
+font-family: 'IBM Plex Sans';
+font-size: 18px!important;
+line-height: 16px;
+/* identical to box height, or 114% */
+text-align: center;
+
+color: #008A45;
+}
+
+
+
+
+.signupTitle{
+  position: absolute;
+width: 173px;
+height: 31px;
+left: 33px;
+top: 20px;
+
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 31px;
+}
+
+.signupLink{
+  position: absolute;
+  width: 217px;
+  height: 17px;
+  left: 557px;
+  top: 27px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: right;
+}
+
+
+.signupLink a{
+  text-decoration: none;
+}
+
+
+.input-group{
+  right: 527px;
+  width: 370px;
+  top: 50px;
+}
+.input-group input{
+  border-radius:0%;
+  background-color: #f3f3f3;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.inputEmail{
+  background-color:#f3f3f3;
+  right: 527px;
+  width: 370px;
+  top: 114px;
+  position: absolute;
+  left: 41px;
+  border-radius: 0%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.inputPassword{
+  background-color:#f3f3f3;
+  right: 527px;
+  width: 370px;
+  top: 155px;
+  position: absolute;
+  left: 41px;
+  border-radius: 0%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.inputCPassword{
+  background-color:#f3f3f3;
+  right: 527px;
+  width: 370px;
+  top: 196px;
+  position: absolute;
+  left: 41px;
+  border-radius: 0%;
 }
 
-.App-link {
-  color: #61dafb;
+.modal-body{
+  height: 400px!important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btnCreatAc{
+  position: absolute;
+  width: 345px;
+  height: 40px;
+  left: 56px;
+  top: 253px;
+
+border-radius: 20px;
+}
+
+.signupBtnFb{
+  position: absolute;
+  width: 345px;
+  height: 40px;
+  left: 56px;
+  top: 300px;
+
+border-radius: 20px;
+}
+.signupBtnGoogle{
+  position: absolute;
+  width: 345px;
+  height: 40px;
+  left: 56px;
+  top: 340px;
+border-radius: 20px;
+}
+
+.signupBtnFb img , .signupBtnGoogle img{
+  margin: 10px;
+}
+
+
+/* modalAside */
+
+.modalAside img{
+  position: absolute;
+width: 320px;
+height: 320px;
+left: 732px;
+top: 130px;
+}
+
+
+.modalInfo{
+  position: absolute;
+width: 317px;
+height: 16px;
+left: 466px;
+    top: 362px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 16px;
+/* identical to box height, or 145% */
+
+text-align: right;
+letter-spacing: -0.008em;
+
+color: #000000;
+
+opacity: 0.6;
 }
